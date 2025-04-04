@@ -1,10 +1,10 @@
 # Cone-Angular
 
-Dự án đơn giản sử dụng AngularJS để tạo ra một cấu trúc hình nón, minh họa cách sử dụng AngularJS, JSDoc và Jest.
+Dự án này là một ví dụ cơ bản về cách tạo ra một hình nón sử dụng HTML, CSS và JavaScript/TypeScript với AngularJS, kết hợp với JSDoc để tài liệu hóa mã nguồn và Jest để kiểm thử. Dự án này được triển khai bằng TypeScript và JavaScript, giúp bạn lựa chọn cách triển khai phù hợp với sở thích hoặc yêu cầu của mình.
 
 ### Tổng Quan
 
-Dự án này là một ví dụ cơ bản về cách tạo ra một hình nón sử dụng HTML, CSS và JavaScript, kết hợp với AngularJS để quản lý cấu trúc và hành vi của ứng dụng. Đây là ví dụ tuyệt vời cho người mới bắt đầu tìm hiểu về AngularJS trong một ứng dụng đơn giản.
+Dự án này minh họa cách tạo ra một hình nón với AngularJS, sử dụng HTML và CSS để xây dựng giao diện người dùng, kết hợp với TypeScript/JavaScript cho việc xử lý logic. Bạn cũng có thể tìm thấy tài liệu mã nguồn được tạo ra bởi JSDoc và kiểm thử đơn vị được thực hiện bằng Jest.
 
 ### Tính Năng
 
@@ -14,7 +14,9 @@ Dự án này là một ví dụ cơ bản về cách tạo ra một hình nón 
 
 - JSDoc cho tài liệu mã nguồn.
 
-- Hình nón tương tác được xây dựng bằng HTML/CSS.
+- HTML/CSS để xây dựng giao diện người dùng.
+
+- TypeScript và JavaScript để triển khai logic của ứng dụng.
 
 ### Cài Đặt
 
@@ -29,13 +31,13 @@ Yêu Cầu
 1. Clone dự án về máy:
 
 ```bash
-git clone https://github.com/Thomas131104/Cone-Angular.git
+git clone https://github.com/Thomas131104/Cone-Angular-TypeScript.git
 ```
 
 2. Di chuyển vào thư mục dự án:
 
 ```bash
-cd Cone-Angular
+cd Cone-Angular-TypeScript
 ```
 
 3. Cài đặt các phụ thuộc:
@@ -49,6 +51,7 @@ npm install
 1. Để chạy dự án trên máy cục bộ:
 
 ```bash
+npm run build
 npm start
 ```
 
