@@ -1,0 +1,133 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #f8d7da, #f7e7e2); /* Gradient background */
+  font-family: 'Arial', sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: white;
+  border-radius: 15px; /* Tăng border-radius để làm mềm các góc */
+  padding: 40px; /* Tăng padding để tạo không gian xung quanh */
+  width: 650px; /* Tăng chiều rộng của container */
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15); /* Thêm bóng đổ đậm hơn */
+  text-align: center;
+}
+
+h3 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.input {
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 18px;
+  color: #555;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+input[type="number"]:focus {
+  border-color: #007bff;
+}
+
+/* Sửa lại phần output để sử dụng bảng */
+.output {
+  margin-top: 30px;
+  width: 100%;
+  max-width: 600px; /* Đảm bảo chiều rộng tối đa của bảng */
+  margin: 0 auto; /* Canh giữa bảng */
+}
+
+/* Thêm border-spacing để tạo khoảng cách giữa các ô */
+table {
+  width: 100%;
+  border-spacing: 10px; /* Khoảng cách giữa các ô */
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+td {
+  padding: 20px; /* Tăng padding để làm các ô rộng ra */
+  font-size: 18px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  background-color: white; /* Đảm bảo nền của các ô là màu trắng */
+  border-radius: 5px; /* Tạo các góc bo cho các ô */
+}
+
+.label {
+  font-weight: bold;
+  color: #333;
+}
+
+.value {
+  color: #007bff;
+}
+
+/* Thêm hover effect cho bảng */
+table tr:hover {
+  background-color: #f1f1f1;
+}
+
+table td:last-child {
+  text-align: right; /* Canh phải cho cột giá trị */
+}
+
+/* Hover effect */
+input[type="number"]:hover {
+  border-color: #0056b3;
+}
+
+/* Responsive design */
+@media (max-width: 480px) {
+  .container {
+    width: 90%;
+    padding: 20px;
+  }
+
+  h3 {
+    font-size: 28px;
+  }
+
+  label {
+    font-size: 16px;
+  }
+
+  input[type="number"] {
+    font-size: 16px;
+  }
+
+  .output {
+    width: 100%;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}

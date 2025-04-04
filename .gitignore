@@ -1,0 +1,20 @@
+# Loại bỏ tệp
+package-lock.json
+
+# Loại bỏ thư mục
+/node_modules
+
+# Tệp log
+*.log
+
+# Thư mục build hoặc dist
+/dist/
+
+# Các tệp hệ thống của editor
+/.vscode/
+/.idea/
+/*.sublime-workspace
+
+# Các tệp hệ thống của OS
+.DS_Store
+Thumbs.db
